@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/download2.jpg);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(139, 0, 46);
+}
+h6{
+    text-align: center;
+}
+h3{
+    color: rgb(255, 0, 34);
+}
+h4{
+    color:  rgb(255, 0, 34);
+}
+
+div{
+    width: "500";
+    height: "400";
+    margin: 5px;
+    border: 2px solid black;
+}
+img{
+    align-content: center;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #body { width:67%; }
+     
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #body { width:100%; }
+    
+}
+/*form{
+    background: grey;
+    padding:20px ;
+    margin: 2px 2px;
+    border: 2px dotted blue;
+    border-radius: 10px;
+    width: "350";
+    height: "300";
+}
